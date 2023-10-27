@@ -6,7 +6,7 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 15:16:34 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/22 15:18:50 by ksalman          ###   ########.fr       */
+/*   Updated: 2023/10/27 15:15:52 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
+	if (lst == 0)
+		return (0);
 	while (lst->next != NULL)
 	{
 		lst = lst->next;

@@ -6,13 +6,13 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:10:40 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:10:46 by ksalman          ###   ########.fr       */
+/*   Updated: 2023/10/27 15:21:38 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	nbnb(int nb)
+static int	nsize(int nb)
 {
 	int	len;
 
@@ -29,11 +29,11 @@ static int	nbnb(int nb)
 
 char	*ft_itoa(int n)
 {
-	int		i;
+	size_t	i;
 	char	*str;
 
-	i = nbnb(n);
-	str = malloc(sizeof(char) * (i + 1));
+	i = nsize(n);
+	str = (char *)malloc(sizeof(char) * (i + 1));
 	if (!str)
 		return (NULL);
 	str[i--] = '\0';
@@ -46,10 +46,10 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	while (n != 0)
 	{
-		if (str[0] == '-')
-			str[i--] = '0' + -(n % 10);
-		else
+		if (n > 0)
 			str[i--] = '0' + (n % 10);
+		else
+			str[i--] = '0' + -(n % 10);
 		n = n / 10;
 	}
 	return (str);
