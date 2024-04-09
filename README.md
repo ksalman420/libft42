@@ -1,8 +1,8 @@
 # Description
 This project's goal is to recreate existing C functions in other C libraries and create other additional useful functions.
 # Avalibale functions
-Each file will have the function description.
-Next to each function there's the function that it corresponds to.
+Each file will have the function's description.
+Next to each function, there's the function that it corresponds to.
 ## Charechtar type check and transformation
 - ft_isalpha (isalpha)
 - ft_isalnum (isalnum)
