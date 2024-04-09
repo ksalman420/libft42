@@ -6,9 +6,13 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:21:13 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 15:23:04 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:01:13 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
+//this function returns a new chained list composed of links which are copies of the links
+// in the original list to which is applied the function.
 
 #include "libft.h"
 

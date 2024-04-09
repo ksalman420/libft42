@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:08:51 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:09:07 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:15:08 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function returns a new string which corresponds to the given string minus the starting
+// and ending whitespaces.
 #include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)

@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/23 14:49:30 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:01:17 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:16:53 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function returns a new string which contains len characters 
+// from the original string starting from index start.
 #include "libft.h"
 
 char	*ft_substr(const char *s, unsigned int start, size_t len)

@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/23 16:10:55 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/23 17:03:26 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:04:36 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function writes a number on the given file descriptor.
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)

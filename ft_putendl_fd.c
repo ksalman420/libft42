@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 17:28:48 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/19 17:35:05 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:03:30 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function writes a string followed by a new line on the given file descriptor.
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)

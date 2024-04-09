@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 17:00:12 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/26 19:27:05 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:13:55 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function returns a new string which is the result of applying the function to the
+// given string.
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:14:46 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:14:48 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:12:16 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function returns a new string which is the result of the concatenation of s1 and s2.
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)

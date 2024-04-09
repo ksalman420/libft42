@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:05:27 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:05:48 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:10:03 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function returns an NULL terminated array of strings which
+// are the result of spliting the given string with character c.
 #include "libft.h"
 
 static size_t	ft_countword(char const *s, char c)
