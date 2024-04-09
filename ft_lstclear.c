@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 16:41:42 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/23 17:07:14 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 08:30:07 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function clears the chain.
 #include "libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
