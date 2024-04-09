@@ -6,10 +6,13 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/21 15:38:37 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/26 19:12:02 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:46:34 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function locates the first occurrence of the null-terminated
+// string little in the string big, where not more than len characters
+//  are searched. Characters that appear after a `\0' character are not searched.
 #include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
@@ -35,35 +38,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-/*
-char *
-strnstr(const char *s, const char *find, size_t slen)
-{
-	char c, sc;
-	size_t len;
-
-	if ((c = *find++) != '\0') {
-		len = strlen(find);
-		do {
-			do {
-				if (slen-- < 1 || (sc = *s++) == '\0')
-					return (NULL);
-			} while (sc != c);
-			if (len > slen)
-				return (NULL);
-		} while (strncmp(s, find, len) != 0);
-		s--;
-	}
-	return ((char *)s);
-}
-
-int main (void)
-{
-	char str[] = "that is too good to be true good";
-	char to_find[] = "good";
-	char *res = ft_strnstr(str,to_find,16);
-	char *kam = strnstr(str,to_find,16);
-	printf("%s",kam);
-	printf("%s",res);
-}
-*/

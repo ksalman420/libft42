@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/23 16:14:02 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:00:08 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:07:22 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//The function allocates the requested memory and returns a pointer to it. 
 #include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)

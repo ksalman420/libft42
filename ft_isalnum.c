@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 14:10:28 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 17:34:11 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:09:24 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//The function is used to check that the character is alphanumeric or not.
 #include "libft.h"
 
 int	ft_isalnum(int c)
@@ -19,10 +20,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-/*
-int main ()
-{
-	printf("%d",ft_isalnum('f'));
-	printf("%d",ft_isalnum('\0'));
-}
-*/

@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 14:42:09 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:53:00 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:44:53 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function searches for the last occurrence of the character c (an unsigned char)
+// in the string pointed to, by the argument s.
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)

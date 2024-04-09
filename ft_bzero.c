@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 20:59:46 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:53:28 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:28:08 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//The function erases the data in the n bytes of the memory starting at the location pointed to by s,
+// by writing zeros (bytes containing '\0') to that area.
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
@@ -23,11 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*
-int main ()
-{
-	char src[50] = "kkallwk";
-	ft_memcpy(src,8);
-	printf("%s", src);	
-}
-*/

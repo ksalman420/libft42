@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 13:09:03 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/23 16:42:55 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:45:38 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function converts a given letter to lowercase.
 #include "libft.h"
 
 int	ft_tolower(int c)

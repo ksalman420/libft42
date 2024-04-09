@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 15:22:24 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 13:02:20 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:31:00 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function duplicates a string.
 #include "libft.h"
 
 char	*ft_strdup(const char *src)

@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 14:22:46 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/23 17:24:33 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:29:19 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function searches for the first occurrence of the character c (an unsigned char)
+// in the string pointed to by the argument str.
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)

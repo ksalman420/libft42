@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 20:23:20 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:50:40 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:22:18 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function copies n characters from memory area src to memory area dest.
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
@@ -24,12 +25,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-int main ()
-{
-	const char src[50] = "kkallwk";
-	char dest [50]="";
-	ft_memcpy(dest, src,8);
-	printf("%s", dest);	
-}
-*/

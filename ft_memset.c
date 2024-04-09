@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 20:09:06 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:45:29 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:29:05 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function copies the character c (an unsigned char)
+// to the first n characters of the string pointed to, by the argument s.
 #include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
@@ -24,11 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-/*
-int main ()
-{
-	const char src[50] = "kkallwk";
-	ft_memcpy(src,'.',8);
-	printf("%s", src);	
-}
-*/

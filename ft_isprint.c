@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 12:35:16 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/23 16:23:36 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:16:16 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function checks whether a character is a printable character or not.
 #include "libft.h"
 
 int	ft_isprint(int c)

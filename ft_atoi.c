@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 15:24:43 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:49:55 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:03:33 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//The function converts the string argument nptr to an integer (type int).
 #include "libft.h"
 
 int	ft_atoi(const char *nptr)

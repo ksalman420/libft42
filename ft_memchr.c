@@ -6,10 +6,12 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 15:33:55 by ksalman           #+#    #+#             */
-/*   Updated: 2023/08/29 16:53:49 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:28:38 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function searches for the first occurrence of the character c (an unsigned char)
+// in the first n bytes of the string pointed to, by the argument s.
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
@@ -27,11 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-/*
-int main ()
-{
-	char s[1000] = "kaosj";
-	printf("%s",ft_memchr(s, 'k', 6));
-
-}
-*/

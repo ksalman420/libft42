@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 13:10:40 by ksalman           #+#    #+#             */
-/*   Updated: 2023/10/27 15:21:38 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 07:17:00 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function converts int data type to string data type
 #include "libft.h"
 
 static int	nsize(int nb)
