@@ -1,5 +1,5 @@
 # Description
-This project's goal is to recreate existing C functions in other C libraries and other additional useful functions.
+This project's goal is to recreate existing C functions in other C libraries and create other additional useful functions.
 # Avalibale functions
 Each file will have the function description
 ## Charechtar type check and transformation
